@@ -19,11 +19,11 @@ export class ProfileService {
   }
   getProfileInfo(){
     return this.http.get("https://api.github.com/users/" + this.username + "?access_token=" + this.accesstoken)
-    .map(res => res.json());
+    // .map(res => res.json());
   }
   getProfileRepos(){
     return this.http.get("https://api.github.com/users/" + this.username + "/repos?access_token=" + this.accesstoken)
-    .map(res => res.json());
+    // .map(res => res.json());
   }
   updateProfile(username:string){
     this.username = username;
