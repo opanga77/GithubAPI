@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import 'rxjs/add/operator/catch';
 
+
 @NgModule({
   declarations: [
     AppComponent,
