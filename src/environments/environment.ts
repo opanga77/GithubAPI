@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false
+  // accesstoken = '5a002f76d318002164c44134b67b39f6774a83c5',
 };
 
 /*
